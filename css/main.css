@@ -82,3 +82,33 @@ body {
 .posts {
     grid-area: posts;
 }
+
+.post-card {
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 25px;
+    margin: 2vh 0;
+}
+
+.post-text {
+    margin: 2hv 0;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links > a {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.card-links > a:hover {
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: underline;
+}
+
+
+
